@@ -95,8 +95,8 @@ p {
 .header-box {
   display: flex;
   justify-content: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .phone {
   width: 14px;
