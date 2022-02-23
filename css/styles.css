@@ -164,8 +164,7 @@ p {
   list-style: none;
 }
 .box-hero {
-  width: 100%;
-  max-width: 1600px;
+  width: 1600px;
   background-color: rgba(47, 48, 58, 0.4);
   margin-left: auto;
   margin-right: auto;
@@ -433,7 +432,6 @@ p {
   margin-right: auto;
 }
 .color-team {
-  width: 100%;
   max-width: 1600px;
   padding-left: 30px;
   padding-right: 30px;
@@ -476,7 +474,6 @@ p {
 }
 .color-foot {
   background-color: #2f303a;
-  width: 100%;
   max-width: 1600px;
   height: 252px;
 
