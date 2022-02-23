@@ -164,6 +164,7 @@ p {
   list-style: none;
 }
 .box-hero {
+  width: 100%;
   max-width: 1600px;
   background-color: rgba(47, 48, 58, 0.4);
   margin-left: auto;
