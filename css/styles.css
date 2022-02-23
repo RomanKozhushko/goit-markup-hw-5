@@ -33,6 +33,7 @@ body {
   text-decoration: none;
   padding-bottom: 32px;
   position: relative;
+  transition: 250ms;
 }
 .active-page:after {
   content: "";
@@ -202,6 +203,7 @@ p {
   font-style: normal;
   margin-top: auto;
   margin-bottom: auto;
+  transition: 250ms;
 }
 .logoh {
   color: var(--title-text-color);
@@ -214,11 +216,12 @@ p {
   text-decoration: none;
   margin-top: auto;
   margin-bottom: auto;
+  transition: 250ms;
 }
 .logoh:hover,
 .logoh:focus {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: 250ms;
+
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logos {
@@ -228,13 +231,13 @@ p {
 .link {
   color: var(--title-text-color);
   text-decoration: none;
+  transition: 250ms;
 }
 .mylo:hover,
 .mylo:focus,
 .link:hover,
 .link:focus {
   color: var(--accent-color);
-  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -253,7 +256,6 @@ p {
 .pres:hover,
 .presi:focus {
   background-color: var(--accent-color);
-  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -270,6 +272,7 @@ p {
   border: none;
   cursor: pointer;
   padding: 6px 22px;
+  transition: 250ms;
 }
 
 .presi:hover,
@@ -395,13 +398,13 @@ p {
   align-items: center;
   display: flex;
   color: var(--grey-boarder);
+  transition: 250ms;
 }
 
 .box:hover,
 .box:focus {
   border-color: 1px solid var(--accent-color);
   color: var(--accent-color);
-  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -410,11 +413,11 @@ p {
   justify-content: center;
   align-items: center;
   display: flex;
+  transition: 250ms;
 }
 .partner:hover,
 .partner:focus {
   fill: currentColor;
-  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -567,7 +570,6 @@ footer-content {
 .item:hover,
 .item:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 img {
@@ -581,6 +583,7 @@ img {
   flex-basis: calc(100% / 3 - var(--card-set-margin));
   margin-left: var(--card-set-margin);
   margin-top: var(--card-set-margin);
+  transition: 250ms;
 }
 
 .name-project {
@@ -617,12 +620,14 @@ img {
   justify-content: center;
   align-items: center;
   display: flex;
+  transition: 250ms;
 }
 .circles {
   fill: var(--grey-boarder);
   justify-content: center;
   align-items: center;
   display: flex;
+  transition: 250ms;
 }
 .circle-man {
   width: 44px;
@@ -635,6 +640,7 @@ img {
   align-items: center;
   display: flex;
   color: var(--grey-boarder);
+  transition: 250ms;
 }
 .social-man {
   width: 20px;
@@ -643,25 +649,23 @@ img {
   justify-content: center;
   align-items: center;
   display: flex;
+  transition: 250ms;
 }
 
 .circle:hover,
 .circle:focus {
   background-color: var(--accent-color);
-  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .circle-man:hover,
 .circle-man:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-man:hover,
 .social-man:focus {
   fill: currentColor;
-  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -717,11 +721,10 @@ img {
   padding: 20px 24px;
 }
 .item {
-  /* width: 370px;
-  height: 404px; */
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  transition: 250ms;
 }
 .overlay {
   position: absolute;
@@ -729,7 +732,7 @@ img {
   left: 0;
   width: 100%;
   height: 294px;
-  transform: translatey(140%);
+  transform: translatey(-101%);
   transition: transform 250ms ease;
   background: rgba(33, 150, 243, 0.9);
 }
